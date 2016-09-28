@@ -2,25 +2,26 @@
 */
 
 .dkBlue {
-  background-color:#001750 ;
-}  
+  background-color: rgba(0, 23, 80, .6);
+ }  
 .blue   {
-  background-color:#2C75FF ;
+  background-color: rgba(44, 117, 255, .6) ;
 }  
 .ltBlue {
-  background-color:#00C5CD ;
+  background-color: rgba(0, 197, 205, .6);
 }  
 .red    {
-  background-color:#DA7345 ;
+  background-color: rgba(218, 115, 69, .6);
 }    
 .yellow {
-  background-color: #FFEC8B ;
+  background-color: rgba(255, 236, 139, .6)
+ ;
 }   
 .purple {
-  background-color:#9288F5 ;
+  background-color: rgba(146, 136, 245, .6);
 }    
 .green  {
-  background-color:#71DEA6 ;
+  background-color: rgba(113, 222, 166, .6);
 }   
 
 .contentFlexContainer > div > div > p {
@@ -58,35 +59,33 @@ nav {
     top: 0px;
     width: 100%;
 }
-.box2 {
+
+.largeContent {
   min-height: 250px;
   flex: 2 0 60%;
 }
-.box1{
-  min-height: 250px;
-  flex: 1 0 30%;
-}
-.box4{
-  min-height: 250px;
-   flex: 1 0 30%;
-}
-.box3{
-  min-height: 250px;
-  flex: 2 0 60%;
-}
-.box6{
-  min-height: 250px;
-  flex: 2 0 50%;
-}
-.box5{
+.halfBox{
    min-height: 250px;
    flex: 1 0 40%;
 }
-.box7 {
+.smallContent {
+  min-height: 250px;
+  flex: 1 0 30%;
+}
+.backgroundImage{
+   background-image: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/YHZG67H42B.jpg');
+
+}
+
+.fullContent {
   min-height: 100px;
   flex: 2 0 100%;
 }
-
+.contentInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 .formBox {
   min-height: 100px;
   flex: 2 0 100%;
