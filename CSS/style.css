@@ -1,0 +1,126 @@
+/*Color palette was created using: http://www.palettable.io/  
+*/
+
+.dkBlue {
+  background-color:#001750 ;
+}  
+.blue   {
+  background-color:#2C75FF ;
+}  
+.ltBlue {
+  background-color:#00C5CD ;
+}  
+.red    {
+  background-color:#DA7345 ;
+}    
+.yellow {
+  background-color: #FFEC8B ;
+}   
+.purple {
+  background-color:#9288F5 ;
+}    
+.green  {
+  background-color:#71DEA6 ;
+}   
+
+.contentFlexContainer > div > div > p {
+  border-top: 3px solid black;
+  display: inline-block;
+  max-width: 200px;
+}
+
+.contentFlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  height: 700px;
+}
+
+.headerContainer, nav {
+  height: 300px;
+  flex: 2 0 100%;
+  color:#03031B;
+}
+.headerContainer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerInfo h1{
+}
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.box2 {
+  min-height: 250px;
+  flex: 2 0 60%;
+}
+.box1{
+  min-height: 250px;
+  flex: 1 0 30%;
+}
+.box4{
+  min-height: 250px;
+   flex: 1 0 30%;
+}
+.box3{
+  min-height: 250px;
+  flex: 2 0 60%;
+}
+.box6{
+  min-height: 250px;
+  flex: 2 0 50%;
+}
+.box5{
+   min-height: 250px;
+   flex: 1 0 40%;
+}
+.box7 {
+  min-height: 100px;
+  flex: 2 0 100%;
+}
+
+.formBox {
+  min-height: 100px;
+  flex: 2 0 100%;
+}
+.formBox >.contentInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.formContainer {
+display: flex;
+justify-content: center;
+align-content: center;
+}
+.contactItemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 2 0 50%;
+}
+.formContainer {
+  width: 30%;
+  flex: 2 0 60%;
+}
+
+form label {
+  padding: 25px;
+}
+.formMessage{
+  height: 200px;
+  width: 100%;
+}
+
+.social{
+  min-height: 100px;
+  flex: 2 0 100%;
+  }
