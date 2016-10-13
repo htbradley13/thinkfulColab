@@ -10,4 +10,4 @@ $(window).scroll(function(){ //detected if the window is being scrolled
 
 });
 
-});
+}); 
